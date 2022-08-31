@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+    </head>
+	<body>
+        <div class="calculator">
+            <div id="display" data-value="0">0</div>
+                <ul class="command">
+                    <li class="btn" data-value="7">7</li>
+                    <li class="btn" data-value="8">8</li>
+                    <li class="btn" data-value="9">9</li>
+                    <li class="btn ac colspan" data-value="Clear">AC</li>
+                    <li class="btn" data-value="4">4</li>
+                    <li class="btn" data-value="5">5</li>
+                    <li class="btn" data-value="6">6</li>
+                    <li class="btn operator" data-value="÷">÷</li>
+                    <li class="btn operator" data-value="×">×</li>
+                    <li class="btn" data-value="1">1</li>
+                    <li class="btn" data-value="2">2</li>
+                    <li class="btn" data-value="3">3</li>
+                    <li class="btn operator" data-value="-">ー</li>
+                    <li class="btn operator" data-value="+">＋</li>
+                    <li class="btn zerozero colspan" data-value="00">00</li>
+                    <li class="btn" data-value="0">0</li>
+                    <li id="dec" class="btn dec" data-value=".">.</li>
+                    <li class="btn equal" data-value="=">＝</li>
+                </ul>
+          </div>
+        <script src="main.js"></script>
+	</body>
+</html>
